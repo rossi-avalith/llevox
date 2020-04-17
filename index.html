@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>Llevox</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform form-inline" action="./">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--		
+		<ul>
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<section class="page_toplogo table_section ls mainpge_toplogo section_padding_25">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 col-lg-3 text-center text-sm-left">
+							<a href="./" class="logo">
+								<img src="images/static/logo.gif" alt="" class="imageFooter">
+							</a>
+						</div>
+						<div class="col-sm-8 col-lg-9 text-center text-sm-right teasers-line">
+							<div class="media inline-block text-uppercase semibold small-teaser text-left">
+								<div class="grey bold">Any question at</div>
+								1-800-23-456-7890
+							</div>
+							<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="contact.html">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-house grey bold"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">0258 Hans Centers</span>
+									<br> Cristoballand, USA
+								</span>
+							</a>
+							<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="mailto:your@mail.com">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-envelope grey bold"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Send your mail at</span>
+									<br> moveco@support.com
+								</span>
+							</a>
+							<div>
+								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-facebook"></a>
+								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-twitter"></a>
+								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-google"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<header class="page_header header_darkgrey ms toggle_menu_left">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<!-- main nav start -->
+							<nav class="mainmenu_wrapper">
+								<ul class="mainmenu nav sf-menu">
+									<li>
+										<a href="#llevox">¿Que es llevox?</a>
+									</li>
+									<li >
+										<a href="index.html">Servicios</a>
+									</li>
+									<li >
+										<a href="#video">¿Como funciona?</a>
+									</li>
+									<li>
+										<a href="index.html">Contacto</a>
+									</li>
+									<!-- eof contacts -->
+								</ul>
+							</nav>
+							<!-- eof main nav -->
+						</div>
+						<div class="col-md-3 text-right">
+							<span class="toggle_menu">
+								<span></span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!--
+				Aca contenido image
+			-->
+			
+			<section class="page_banner   parallax solo_web" >
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-12 text-center parallax-content">
+                      <div class="to_animate" data-animation="fadeInUp">
+												<h2 class="to_animate section_header small">TENES UN FLETE A MANO</p>
+												<h2 class="to_animate section_header small color3">DESCARGÁ LA APP</p>
+                      </div>
+
+                      <div class="to_animate" data-animation="fadeInDown">
+                        <a href="#" ><img src="images/static/Google_Play.png" alt="" class="google_img"></a>
+                        <a href="#" ><img src="images/static/App_Store.png" alt="" class="ios_img"></a>
+                      </div>											
+											<div class="slider-bottons">
+																<!-- <img src="images/static/Google_Play.png" alt="" class="google_img"> -->
+																<!-- <img src="images/static/App_Store.png" alt="" class="ios_img"> -->
+											</div>
+										</div>
+									</div>
+								</div>
+
+			</section>
+			<section class="cs page_banner  movil" >
+				<img src="images/static/LLEVOX_Fletes_01.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center ">
+							<div class="to_animate" data-animation="fadeInUp">
+								<h2 class="to_animate section_header small">TENES UN FLETE A MANO</p>
+								<h2 class="to_animate section_header small color3">DESCARGÁ LA APP</p>
+							</div>
+
+							<div class="to_animate" data-animation="fadeInDown">
+								<a href="#" ><img src="images/static/Google_Play.png" alt="" class="google_img"></a>
+								<a href="#" ><img src="images/static/App_Store.png" alt="" class="ios_img"></a>
+							</div>											
+							<div class="slider-bottons">
+												<!-- <img src="images/static/Google_Play.png" alt="" class="google_img"> -->
+												<!-- <img src="images/static/App_Store.png" alt="" class="ios_img"> -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+</section>			
+
+			<section class="home-quien" id="llevox">
+				<div class="row">
+
+					<h2 class="text-center">¿QUÉ ES LLEVOX?</h2>
+					<p class="text-center"><strong></strong>
+					<strong>LLEVOX es una app</strong> que <strong>facilita la conexión entre fleteros y
+						 usuarios</strong> para que tus traslados sean<strong> prácticos, confiables</strong> y 
+						 al <strong>menor precio</strong> del mercado. <br />
+
+						La <strong>carga viaja asegurada </strong>y la flota de utilitarios, furgones y 
+						camionetas <strong>cumple con todos los requisitos legales vigentes.</strong> <br />
+						
+						<strong>La cotización que recibirás incluye flete, impuestos, tasas 
+							municipales y seguro. </strong>
+					</p>
+				</div>
+			</section>
+<!--
+	Seccion para servicio empresa llevox
+ :TODO mejorar
+-->
+			<section class="cs section_padding_top_100 section_padding_bottom_75  page_testimonials columns_margin_bottom_30">
+				<div class="container">
+                    <h2 class="text-center">
+                        SERVICIOS
+                    </h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <img class="bd-placeholder-img card-img-top img-service" src="images/services/LLEVOX_Flete_01.svg" alt="Kiwi standing on oval">
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <img class="bd-placeholder-img card-img-top img-service" src="images/services/LLEVOX_Flete_02.svg" alt="Kiwi standing on oval">
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <img class="bd-placeholder-img card-img-top img-service" src="images/services/LLEVOX_Flete_03.svg" alt="Kiwi standing on oval">
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <img class="bd-placeholder-img card-img-top img-service" src="images/services/LLEVOX_Flete_04.svg" alt="Kiwi standing on oval">
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <img class="bd-placeholder-img card-img-top img-service" src="images/services/LLEVOX_Flete_05.svg" alt="Kiwi standing on oval">
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                            <img class="bd-placeholder-img card-img-top img-service" src="images/services/LLEVOX_Flete_06.svg" alt="Kiwi standing on oval">
+                            <div class="card-body">
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                
+                      </div>
+                
+					<!-- <div class="row">
+							<div class="margin_0" data-responsive-lg="3" data-responsive-md="2" data-responsive-sm="2" data-responsive-xs="1" data-nav="true" data-nav-container=".testimonials-carousel-nav">
+								<blockquote class="margin_0">
+									TRASNPARENCIA
+								</blockquote>
+								<blockquote class="margin_0">
+									SEGURIDAD
+								</blockquote>
+								<blockquote class="margin_0">
+									PRACTICIDAD
+								</blockquote>
+								<blockquote class="margin_0">
+									SERIEDAD
+								</blockquote>
+							</div>
+					</div> -->
+				</div>
+				<div class="container-fluid testimonials-carousel-nav owl-nav"></div>
+			</section>
+<!--
+	otros clientes
+-->
+			<section class="ls section_padding_top_75 section_padding_bottom_100">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<div class="framed-heading bottommargin_15">
+								<h2 class="section_header">
+									¿CÓMO FUNCIONA?
+								</h2>
+							</div>
+							<p>
+								Phasellus efficitur, massa posuere ultricies faucibus, purus ante dapibus tellus, ut venenatis massa magna ut justo. Nunc in molestie lectus eleifend.
+							</p>
+						</div>
+					</div>
+					<div class="row topmargin_30">
+						<div class="col-md-4 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<img src="./images/work/LLEVOX_Mudanza_01.svg" alt="" />
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<img src="./images/work/LLEVOX_Mudanza_02.svg" alt="" />
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<img src="./images/work/LLEVOX_Mudanza_03.svg" alt="" />
+						</div>
+						
+					</div>
+					<div class="row topmargin_30">
+						<div class="col-md-6 col-sm-6 col-xs-8 text-center to_animate" data-animation="pullUp">
+							<img src="./images/work/LLEVOX_Mudanza_04.svg" alt="" />
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-8 text-center to_animate" data-animation="pullUp">
+							<img src="./images/work/LLEVOX_Mudanza_05.svg" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+<!--
+	video
+-->			
+			<section id="video" class="home-quien">
+				<div class="row">
+
+					<h2 class="text-center">PASOS</h2>
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<img src="./images/static/Pasos_LLEVOX_Flete_Mudanza.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--
+				Footer definitivo
+			-->
+			<footer class="page_footer ds ms color section_padding_75 columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<img src="images/static/logo.gif" alt="" class="imageFooter">
+							<p class="topmargin_40 bottommargin_30">
+								Aliquam suscipit dignissim mauris, in malesuada nibh consequat a. Suspendisse quis scelerisque sapien. Proin pulvinar porttitor metus vitae tinci. Pellentesque habitant morbi.
+							</p>
+							<div>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-facebook"></a>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-twitter"></a>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-google"></a>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-instagram"></a>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-linkedin"></a>
+							</div>
+						</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
