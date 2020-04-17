@@ -56,6 +56,9 @@
 .color3{
 	color: #76c48d !important;
 }
+.mudanza_img{
+	max-width: 150px;
+}
 .google_img{
 	max-width: 143px;
 	display: inline-flex;
@@ -65,6 +68,10 @@
 	max-width: 130px;
 	display: inline-flex;
 	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.socios_img{
+	max-width: 720px;
+
 }
 /*bootstrap breadcrumbs*/
 .breadcrumb {
@@ -2224,7 +2231,8 @@ header [class*="col-"] {
 
 .img-service{
     width: 100%;
-    height: 225px;
+		height: 150px;
+		margin-bottom: 20px;
 }
 .text-center .framed-heading + p {
 	margin-right: auto;
@@ -3761,9 +3769,6 @@ body.boxed {
 }
 .imageFooter {
 	max-width: 130px;
-}
-.ds {
-  /* shop */
 }
 
 .ds h1,
@@ -5531,10 +5536,7 @@ body.active-side-header.slide-right .page_header_side {
 	opacity: 0;
 }
 
-.page_breadcrumbs {
-  /* styles for breadcrumbs style 3 */
-  /* styles for breadcrumbs style 4 */
-}
+
 
 .page_breadcrumbs.template_breadcrumbs.parallax:before {
 	opacity: 0.6;
@@ -7950,7 +7952,6 @@ widget_mailchimp
 .widget_search .form-inline .form-group,
 .widget_mailchimp .form-inline .form-group {
 	display: block;
-	vertical-align: top;
 	position: relative;
 }
 
