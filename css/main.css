@@ -52,7 +52,14 @@
 		display: block;
 	}
 }
+.circle_mudanza{
+	height: 100px;
+	width: 100px;
 
+}
+.item_mudanza{
+	height: 60px;
+}
 .color3{
 	color: #76c48d !important;
 }
@@ -2584,6 +2591,9 @@ body.boxed {
 	border-color: #f69323;
 }
 
+.green{
+	color: #76c48d;
+}
 .red, .required {
 	color: #fa5c5d;
 }
@@ -6577,17 +6587,18 @@ section .intro_section .slide_description_wrapper {
 	position: absolute;
 	top: 0;
 	left: 50%;
-	margin-left: -30px;
+	/* margin-left: -30px; */
 	display: none;
 	width: 60px;
 	height: 60px;
 	cursor: pointer;
 	z-index: 1001;
 	visibility: visible;
+	background-color: #1D3052;
 }
 
 .toggle_menu_left .toggle_menu {
-	left: 15px;
+	left: 0;
 	margin-left: 0;
 }
 
@@ -11324,7 +11335,7 @@ totop
 	z-index: 9999;
 	font-size: 0;
 	color: transparent;
-	background-color: #1d3052;
+	background-color: #f69323;
 	opacity: 0.7;
 }
 
