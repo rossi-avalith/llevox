@@ -33,15 +33,46 @@
 
 **bootstrap overrides
 */
+
+
+@font-face{
+	font-family: 'GothamRounded-Medium';
+	src: local('GothamRounded-Medium.woff'),
+	url('../fonts/GothamRounded-Medium.woff') format('woff')
+	;
+}
+@font-face{
+	font-family: 'GothamRounded-Book';
+	src: local('GothamRounded-Book.woff'),
+	url('../fonts/GothamRounded-Book.woff') format('woff')
+	;
+}
+@font-face{
+	font-family: 'GothamNarrow-Book';
+	src: local('GothamNarrow-Book.woff'),
+	url('../fonts/GothamNarrow-Book.woff') format('woff')
+	;
+}
 :root {
 	--main-accent-color: rgb(61,113,184);
 	--main-main-color: #5AB88F;
+	--main-main-font: 'Gotham-Rounded-Medium';
 }
+
+/** new fonts*/
+.intro_section  p{
+	font-family: 'GothamRounded-Medium' !important;
+}
+.intro_section2  h4 {
+	font-family: 'GothamRounded-Medium' !important;
+
+}
+
 .my-mobile-icon{
 	font-size: 24px !important;
 	margin-left: 4px !important;
 }
-.decarga{
+.descarga{
 	margin: 0 !important;
 }
 
@@ -110,6 +141,14 @@
 	background-color: var(--main-accent-color);
 	padding: 30px 0 0px 0;
 }
+.traslados h2, .traslados p {
+	font-family: 'GothamRounded-Medium' !important;
+	
+}
+.traslados p {
+	font-family: 'GothamRounded-Medium' !important;
+	padding: 0 10px;	
+}
 .traslados  .breadcrumb {
 	margin-top: 20px !important;
 }
@@ -127,6 +166,9 @@
 	.traslados-mobil {
 		display: none;
 	}
+}
+#llevox h2, #funcionamiento h2 {
+	font-family: 'GothamRounded-Medium' !important;
 }
 
 .page_about .framed-heading .section_header:before, 
@@ -1236,7 +1278,8 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: 'GothamRounded-Book', sans-serif;
 	font-size: 16px;
 	line-height: 30px;
 	background-color: #ffffff;
@@ -1608,10 +1651,14 @@ input[type="submit"].inverse {
 .theme_buttons.color2 a,
 .theme_button.color2 {
 	background-color: var(--main-accent-color);
+	font-family: 'GothamNarrow-Book' !important;
+
 }
 .theme_buttons.color3 a,
 .theme_button.color3 {
 	background-color: var(--main-main-color);
+	font-family: 'GothamNarrow-Book' !important;
+
 }
 
 .theme_buttons.color2 a:hover, .theme_buttons.color2 a:focus,
@@ -6185,6 +6232,9 @@ justify-items: end;
 	position: relative;
 	overflow: hidden;
 }
+.intro_section2 h2 {
+	font-family: 'GothamRounded-Medium' !important;
+}
 
 .intro_section2 .container-fluid {
 	padding-right: 30px;
@@ -6200,6 +6250,8 @@ justify-items: end;
 .intro_section2 .content-block-left {
 	background-color: rgba(255, 255, 255, 0.9);
 }
+
+
 
 .intro_section2 .content-block-left {
 	z-index: 1;
@@ -8031,6 +8083,11 @@ aside .widget + .widget {
 	text-transform: uppercase;
 	font-weight: 800;
 	font-size: 30px;
+}
+
+.page_footer  a{
+	font-family: 'GothamNarrow-Book' !important;
+
 }
 
 .page_footer .module-header {
@@ -10790,6 +10847,7 @@ flexslider
 	display: block;
 	max-height: 600px;
 }
+
 
 .flex-pauseplay span {
 	text-transform: capitalize;
